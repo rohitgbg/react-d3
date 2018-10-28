@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1> Hello World!</h1>
-          <p>FullThrottle Labs Assignment</p>
-        </header>
-      </div>
+        <Container>
+        <Row>
+          <Col>
+            <h3>FullThrottle Labs Assignment</h3>
+          </Col>
+        </Row>
+        </Container>
     );
   }
 }
